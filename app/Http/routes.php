@@ -17,10 +17,11 @@ Route::get('/', function () {
 });
 
 //加载后台主页面
-Route::controller('/admin','Admin\AdminController');
+Route::controller('/admin','Admin\IndexController');
+// 加载管理员管理页面
+Route::resource('/adminlist', 'Admin\AdminController');
 // 在后台加载用户页面
 Route::resource('/user','Admin\UserController');
-
 //在后台加载分类页面
 Route::resource('/cate','Admin\CateController');
 
