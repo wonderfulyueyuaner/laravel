@@ -21,4 +21,7 @@ Route::controller('/admin','Admin\AdminController');
 // 在后台加载用户页面
 Route::resource('/user','Admin\UserController');
 
+//在后台加载分类页面
+Route::resource('/cate','Admin\CateController');
+
 

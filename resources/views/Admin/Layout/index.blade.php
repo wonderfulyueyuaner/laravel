@@ -108,8 +108,8 @@
 			<dt><i class="Hui-cate">&#xe620;</i> 类别管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a data-href="product-brand.html" data-title="类别管理" href="javascript:void(0)">分类管理</a></li>
-					<li><a data-href="product-category.html" data-title="类别管理" href="javascript:void(0)">分类添加</a></li>
+					<li><a data-href="/cate" data-title="类别管理" href="javascript:void(0)">分类管理</a></li>
+					<li><a data-href="/cate/create" data-title="类别管理" href="javascript:void(0)">分类添加</a></li>
 				</ul>
 			</dd>
 		</dl>
